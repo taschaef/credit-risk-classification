@@ -2,9 +2,11 @@
 
 ## Overview of the Analysis
 1. Explain the purpose of the analysis.
+   
 The purpose of the analysis in this challenge was to use supervised machine learning models to predict loan risk based on provided data. The data provided was historical lending activity from a peer-to-peer lending service. 
 
-2.  Explain what financial information the data was on, and what you needed to predict.
+3.  Explain what financial information the data was on, and what you needed to predict.
+   
 The data was provided in the form of an Excel sheet, which I then imported into a Pandas dataframe. The categories in the data include: 
   * Loan Size
   * Interest Rate
@@ -15,11 +17,14 @@ The data was provided in the form of an Excel sheet, which I then imported into 
   * Total Debt
 
 3.  Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+   
 The machine model was trying to predict whether active loans were "healthy" or "high risk" (i.e. at risk of defaulting) based on the provided data. As seen in my Jupyter notebook, I split the loans into these two categories and can easily see how many loans are considered healthy or high risk by calling the value_counts command. 
 
-4.  Describe the stages of the machine learning process you went through as part of this analysis. Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+5.  Describe the stages of the machine learning process you went through as part of this analysis. Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+   
 To begin, the first model was subjected to a logistic regression model using the original data. To simplify, a subsets of the total original data were used. This first model was trained on a subset of the orignial data, then it was tested and it's accuracy, precision, and recall rates tested and recorded on a different subset of the data. 
-Then, for a more wholistic view of the data, a second model was trained based on a randomly oversampled data from the original dataset. This step is necessary because of the disparity between the two groups: the healthy loans and the high risk loans. 75036 loans are deemed healthy while only 2500 loans are considered high risk. Because there is a significant difference between the number of healthy loans vs the number of high risk loans, the randomly oversampled method was applied to even out the number of samples in each category so comparison is clearer.  The second model also subjected to a logistical regression model, and the accuracy, precision, and recall rates were recorded. 
+Then, for a more wholistic view of the data, a second model was trained based on a randomly oversampled data from the original dataset. This step is necessary because of the disparity between the two groups: the healthy loans and the high risk loans. 
+75036 loans are deemed healthy while only 2500 loans are considered high risk. Because there is a significant difference between the number of healthy loans vs the number of high risk loans, the randomly oversampled method was applied to even out the number of samples in each category so comparison is clearer.  The second model also subjected to a logistical regression model, and the accuracy, precision, and recall rates were recorded. 
 
 ## Results
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
