@@ -1,7 +1,7 @@
 # Machine Learning Credit Risk Analysis
 
 ## How To Use
-
+The Jupyter Notebook file labeled credit_risk_classification contains all code for this project, and the analysis report summarizes my findings.  
 
 ## Background
 In this Challenge, I was asked to use various techniques to train and evaluate a model based on loan risk. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
