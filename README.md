@@ -1,4 +1,9 @@
-# Module 20 Challenge: Credit Risk Classification 
+# Machine Learning Credit Risk Analysis
+
+## How To Use
+
+
+## Background
 In this Challenge, I was asked to use various techniques to train and evaluate a model based on loan risk. I used a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
 
 ## The instructions for this Challenge are divided into the following subsections:
@@ -20,6 +25,9 @@ Use your knowledge of logistic regression to complete the following steps:
     - Generate a confusion matrix.
     - Print the classification report.
   - Answer the following question: How well does the logistic regression model predict both the 0 (healthy loan) and 1 (high-risk loan) labels?
+
+<img width="404" alt="image" src="https://github.com/taschaef/Machine_Learning_Credit_Risk_Analysis/assets/124079708/35c18b0a-37c1-42da-a816-f6db03a84ef6">
+
 
 # 3. Write a Credit Risk Analysis Report
 Write a brief report that includes a summary and analysis of the performance of the machine learning models that you used in this homework. You should write this report as the README.md file included in your GitHub repository.
